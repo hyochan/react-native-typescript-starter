@@ -6,12 +6,10 @@
 2. There are samples for redux and action.
 3. You can learn how to structure react-native app.
 4. Navigate with React-Navigation's StackNavigator.
-5. Styles.js are seperated from components.
-6. Global variables and functions are in global folder.
-7. Assets are in assets folder.
-8. Global styles are defined in stylesVar.js
-9. If you use rest api call, that will be done in searchApi.js
-10. Shared components are in shared folder.
+5. Module resolver supports for both ts and babel for js in build directory.
+6. Assets are in assets folder.
+7. If you use rest api call, that will be done in searchApi.js
+8. Shared components are in shared folder.
 
 # INSTALL
 1. npm install
