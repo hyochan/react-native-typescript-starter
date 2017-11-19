@@ -1,0 +1,31 @@
+{
+  "presets": ["react-native"],
+  "env": {
+    "development": {
+      "plugins": [
+        "transform-decorators-legacy",
+        "transform-react-jsx-source"
+      ]
+    }
+  },
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./build/app"],
+      "alias": {
+        "@assets": "./build/assets",
+        "@apis": "./build/apis",
+        "@libs": "./build/components/libs",
+        "@navbars": "./build/components/navbars",
+        "@navigations": "./build/components/navigations",
+        "@pages": "./build/components/pages",
+        "@shared": "./build/components/shared",
+        "@constants": "./build/constants",
+        "@actions": "./build/actions/index",
+        "@reducers": "./build/reducers/index",
+        "@STRINGS": "./build/STRINGS",
+        "@StyleVariables": "./build/StyleVariables",
+        "@app": "./build/app"
+      }
+    }]
+  ]
+}
