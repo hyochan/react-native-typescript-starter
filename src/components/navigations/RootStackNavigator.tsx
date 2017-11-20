@@ -4,7 +4,11 @@ import React from 'react';
 import { StackNavigator, NavigationActions } from 'react-navigation';
 import {
   View,
+  StyleSheet,
+  StatusBar,
+  Platform,
 } from 'react-native';
+import { getStatusBarHeight } from 'react-native-status-bar-height';
 
 // const startPage = 'First';
 const startPage: string = 'First';
@@ -57,11 +61,18 @@ class RootNavigator extends React.Component<any, any> {
     RootStackNavigator.router.getStateForAction = navigateOnce(RootStackNavigator.router.getStateForAction);
 
     return (
-      <View style={{ flex: 1 }}>
+      <View style={styles.root}>
         <RootStackNavigator />
       </View>
     );
   }
 }
+
+const styles = StyleSheet.create({
+  root: {
+    paddingTop: Platform.OS === 'ios'
+      ? getStatusBarHeight() : StatusBar.currentHeight,
+  },
+});
 
 export default RootNavigator;

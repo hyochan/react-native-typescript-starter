@@ -22,6 +22,7 @@
     "react-native-localization": "^0.2.1",
     "react-native-modal-datetime-picker": "^4.13.0",
     "react-native-star-rating": "^1.0.8",
+    "react-native-status-bar-height": "^1.0.1",
     "react-native-vector-icons": "^4.4.2",
     "react-navigation": "^1.0.0-beta.19",
     "react-redux": "^5.0.6",
