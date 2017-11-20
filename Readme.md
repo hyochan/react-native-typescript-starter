@@ -3,19 +3,20 @@
 
 # Directories are well structured
 1. Typescript support. Run tsc -w while developing which will create files in build folder.
-2. There are samples for redux and action.
-3. You can learn how to structure react-native app.
+2. Sample of redux and action.
+3. Able to learn how to structure react-native app with typescript.
 4. Navigate with React-Navigation's StackNavigator.
 5. Module resolver supports for both ts and babel for js in build directory.
-6. Assets are in assets folder.
-7. If you use rest api call, that will be done in searchApi.js
-8. Shared components are in shared folder.
+6. If you use rest api call, that will be done in searchApi.js
+7. Assets are in assets folder.
+8. Shared components are in components/shared folder.
 
 # INSTALL
 1. npm install
 2. npm start
 3. Open other terminal
 4. npm run ios
+5. tsc -w in termianl if you are dynamically developing in typescript 
 
 # React-Native version
 1. 0.50.3

@@ -14,7 +14,7 @@ import {
 } from 'react-native';
 import NativeButton from 'apsl-react-native-button';
 import StarRating from 'react-native-star-rating';
-import { ratio } from '../../constants/Styles';
+import { ratio } from '@constants/Styles';
 
 const dateFormat = 'YYYY-MM-DD(ddd)';
 

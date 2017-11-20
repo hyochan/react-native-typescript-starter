@@ -13,10 +13,10 @@ import {
 } from 'react-native';
 import { connect } from 'react-redux';
 import { ICON_MESSAGE, ICON_SETTING } from '@constants/Icons';
-import Navbar from '../shared/Navbar';
-import SearchView from '../shared/SearchView';
-import List from '../shared/List';
-import { ratio } from '../../constants/Styles';
+import Navbar from '@shared/Navbar';
+import SearchView from '@shared/SearchView';
+import List from '@shared/List';
+import { ratio } from '@constants/Styles';
 
 const dateFormat1 = 'MM.DD';
 const dateFormat2 = 'DD';

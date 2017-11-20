@@ -5,9 +5,9 @@ import {
   StyleSheet,
 } from 'react-native';
 
-import Navbar from '../shared/Navbar';
-import SearchView from '../shared/SearchView';
-import { ratio } from '../../constants/Styles';
+import Navbar from '@shared/Navbar';
+import SearchView from '@shared/SearchView';
+import { ratio } from '@constants/Styles';
 
 interface ItemProps {
   navigation?: any;

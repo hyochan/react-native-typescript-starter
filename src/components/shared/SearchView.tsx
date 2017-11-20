@@ -19,10 +19,10 @@ import moment from 'moment';
 
 import {
   ICON_BACK, ICON_HEART, ICON_MESSAGE, ICON_PROFILE, ICON_SETTING,
-} from '../../constants/Icons';
-import { data } from '../../constants/Data';
-import { ratio } from '../../constants/Styles';
-import { updateSearch } from '../../actions/index';
+} from '@constants/Icons';
+import { data } from '@constants/Data';
+import { ratio } from '@constants/Styles';
+import { updateSearch } from '@actions';
 
 const dateFormat = 'YYYY-MM-DD(ddd)';
 
