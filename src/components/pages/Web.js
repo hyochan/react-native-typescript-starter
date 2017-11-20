@@ -13,7 +13,7 @@ import { Navigator } from 'react-native-deprecated-custom-components';
 import { connect } from 'react-redux';
 import { encrypt, decrypt } from 'react-native-simple-encryption';
 import { doLogout } from '@apis/authApi';
-import { ratio } from '../../constants/Styles';
+import { ratio } from '@constants/Styles';
 import webapp from './embeded/index.html';
 
 const encryptKey = '1the2moin5key8for0encrypt';

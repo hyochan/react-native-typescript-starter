@@ -1,5 +1,5 @@
-# Sample App is developed with Starter Project
-# Helpful starter project for react-native
+# React Native Typescript Starter
+# Helpful starter project for react-native with typescript
 
 # Directories are well structured
 1. Typescript support. Run tsc -w while developing which will create files in build folder.
